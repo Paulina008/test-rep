@@ -2,12 +2,18 @@
 using namespace std;
 
 int main()
-{    
-    int number;
+{
+    int a = 5, b = 10, temp;
 
-    cout << "Enter an integer: ";
-    cin >> number;
+    cout << "Before swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
 
-    cout << "You entered " << number;    
+    temp = a;
+    a = b;
+    b = temp;
+
+    cout << "\nAfter swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+
     return 0;
 }
