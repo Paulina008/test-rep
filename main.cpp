@@ -2,12 +2,17 @@
 using namespace std;
 
 int main()
-{    
-    int number;
+{
+    double firstNumber, secondNumber, productOfTwoNumbers;
+    cout << "Enter two numbers: ";
 
-    cout << "Enter an integer: ";
-    cin >> number;
+    // Stores two floating point numbers in variable firstNumber and secondNumber respectively
+    cin >> firstNumber >> secondNumber;
+ 
+    // Performs multiplication and stores the result in variable productOfTwoNumbers
+    productOfTwoNumbers = firstNumber * secondNumber;  
 
-    cout << "You entered " << number;    
+    cout << "Product = " << productOfTwoNumbers;    
+    
     return 0;
 }
